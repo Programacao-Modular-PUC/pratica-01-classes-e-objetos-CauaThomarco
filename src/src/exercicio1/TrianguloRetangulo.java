@@ -38,7 +38,7 @@ public class TrianguloRetangulo {
         TrianguloRetangulo triangulo = new TrianguloRetangulo(c1, c2);
 
         System.out.printf("Hipotenusa: %.2f%n", triangulo.calculaHipotenusa());
-        System.out.printf("Área do triângulo: %.2f%n", triangulo.calculaArea());
+        System.out.printf("Área do triângulo: %.2f", triangulo.calculaArea());
 
         leitor.close();
     }
